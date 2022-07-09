@@ -6,10 +6,10 @@ number_of_guesses = 0
 while number_of_guesses < 20:
   guess = int(input("please enter your guess dude"))
   if guess == number:
-    print("you win dummy")
+    print("fine you win ")
     break   
   elif guess < number:
-    print("To SMALLL🤣🤣🤣!!!!")
+    print("To SMALLL🤣🤣🤣!!!!Guess again")
   elif guess > number:
-    print("TO BIGGG🤢")
+    print("TO BIGGG🤢guess agian")
   number_of_guesses += 1
